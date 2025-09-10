@@ -1,0 +1,8 @@
+# Exercício Lição 01
+
+# 2- Desenvolva um programa que solicite ao usuário ps dados de uim produto (nome, valor e quantidade) e armazene-os em um arquivo 
+
+nome = input ("Digite o valor do produto:"))
+valor = float (input ("Digite o valor do produto: "))
+quantidade = int (input("Digite a quantidade do produto: "))
+

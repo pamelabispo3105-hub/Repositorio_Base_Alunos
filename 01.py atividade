@@ -1,0 +1,13 @@
+Arquivo 01.py atividade
+
+numeros = [] # cria lista vazia
+
+numeros = []
+numeros .append(1)
+numeros .append(2)
+numeros .append(3)
+numeros .append(3)
+numeros .append(4)
+numeros .append(5)
+
+print(numeros)

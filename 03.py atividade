@@ -1,0 +1,8 @@
+# Arquivo 03.py atividade
+
+# Dada a lista ['5,' 'b,' 'c,'], modifique o segundo elemento para 'x'.
+
+letras = ['a,' 'b,' 'c,']
+letras[1] = 'x' 
+ 
+print(letras)

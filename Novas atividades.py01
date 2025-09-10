@@ -1,0 +1,14 @@
+Exercício 01: Validação de Entrata Inteira
+
+while True:
+   entrada = input ("Digite um número inteiro:)
+   try:
+   numero = int (entrada)
+   print(f" Voce digitou o número inteiro: {numero}")
+   break 
+   #Sai do loop se a conversão for bem- sucedida 
+   except ValueError:
+
+   print ("Erro: Por favor, digite um número inteiron válido.)
+
+   print(f" Voce digitou o número inteiro: {numero}")

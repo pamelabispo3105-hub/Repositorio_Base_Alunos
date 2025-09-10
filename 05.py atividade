@@ -1,0 +1,8 @@
+# Arquivo 05.py atividade
+
+# Dada a lista ['maçã', 'banana', 'laranja']n, remove 'banana' usando remove()
+
+frutas = ['maçã','banana', 'laranja']
+frutas.remove('banana')
+
+print(frutas)

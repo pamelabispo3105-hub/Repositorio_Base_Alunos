@@ -1,0 +1,9 @@
+# Arquivo 06.py atividade
+
+# Dada a lista [100,200,300,400], remove e retorno o último elemento usando
+
+numeros = [100,200,300,400]
+ultimo = numeros.pop()
+
+print(numeros)
+print("Removendoz:", ultimo)

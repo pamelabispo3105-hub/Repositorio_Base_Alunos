@@ -1,0 +1,29 @@
+# Exercício 03 Lição While+ if Else
+
+saldo = 1000.0
+
+while True:
+   print("\nCaixa Eletronico")
+   print("(1) Sacar")
+   print("(2) Depositar")
+   print("(3) Ver Saldo")
+   print("(4) Sair")
+
+   opcao = int (input('Escolha uma opção:'))
+
+   if opcao == 1:
+      valor = float (input ("Valor para sacar:"))
+      if valor > saldo:
+         print ("Saldo insuficiente!!")
+      else:
+         saldo -= valor
+         print ("Saque realizado com sucesso!")
+   elif opcao == 2:
+      valor = float (input("Depósito realizado com sucesso!")
+    elif opcao == 3:
+    print("Seu saldo é: R$", saldo)
+    elif opcao == 4:
+    print ("Obrigado por usar nossos serviços!"))
+      break 
+   else:
+      print ("opção inválida, tente novamente.")

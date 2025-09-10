@@ -1,0 +1,11 @@
+#Exercício 1 - Operações Aritméticas Básicas 1 Lição
+
+a = 10
+b = 3
+
+print ("Soma:", a + b)
+print ("Subtração:,", a - b)
+print (" Multiplição:", a * b)
+print (" Divisão:", a/b)
+
+       

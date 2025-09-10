@@ -1,0 +1,13 @@
+Arquivo 09.py atividade
+
+Dada a lista ['a','b', 'd']:
+
+letras = ['a', 'b', 'd']
+
+# Inserir 'c' na posição 2
+letras.insert (2, 'c')
+
+#remove 'a'
+letras.remove('a')
+
+print(letras)

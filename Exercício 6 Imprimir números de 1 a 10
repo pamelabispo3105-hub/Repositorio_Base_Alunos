@@ -1,0 +1,8 @@
+# Exercício 6 Imprimir números 1 a 10
+
+numero = int (input("Digite um número"))
+
+if numero % 2 == 0:
+    print(f" O número {numero} é PAR.")
+else:
+    print (f" o número {numero} é IMPAR.")

@@ -1,0 +1,12 @@
+Arquivo 10.py atividade
+
+Dada a lista [10,20,30,40,50]:
+
+lista = [10,20,30,40,50,]
+lista.append(60)
+lista.insert(1,15)
+lista.remove(30)
+lista = lista.pop()
+
+print("Lista final )
+print(Ultimo elemento removido:".)

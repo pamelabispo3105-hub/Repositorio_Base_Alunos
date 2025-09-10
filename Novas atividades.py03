@@ -1,0 +1,14 @@
+Exercício 03: Acesso a Elemento de Lista com índice
+
+lista = [10,20,30]
+ 
+entrada = input("Digite um índice para acessar a lista:")
+
+try:
+   indice = int(entrada) 
+   Elemento = lista[índice]
+   print(f" Elemento no índice (índice): {elemento}")
+except ValueError:
+   print("Erro: índice dve ser um número inteiro.")
+except IndexError:
+   print("Erro: índice fora do intervalo da lista.")

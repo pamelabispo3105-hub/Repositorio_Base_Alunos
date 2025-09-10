@@ -1,0 +1,9 @@
+Arquivo 07.py atividade 
+
+Dada a lista [' python','java', 'c++'], remova e retorne 'java' usando pop (índice).
+
+Linguagens = ['python','java','c++']
+removido (linguagens)
+
+print(linguagens)
+print("removido:", removido)

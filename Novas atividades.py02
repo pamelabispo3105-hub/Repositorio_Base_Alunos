@@ -1,0 +1,13 @@
+Exercício 02: Divisão com Tratamento de Múltiplas Exceções 
+
+def dividir (a,b):
+   try:
+    
+     return a / b
+except:
+     return Nome
+
+#Exemplo de uso 
+print (dividir (10,2)) # Deve imprimir 5.0
+print (dividir (10.0)) # Deve imprimir None (divisão por zero)
+print (dividir (10,"a")) # Deve imprimir None (tipo inválido)

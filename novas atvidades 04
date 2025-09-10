@@ -1,0 +1,38 @@
+# Exercício 04 While + If/Else
+
+#Exercício 4 - Controle de Estoque 
+estoque = 50
+
+while True: 
+    print ("\nControle de estoque")
+    print ("(1) Adicionar unidades ao estoque") 
+    print ("(2) Remover unidades do estoque")
+    print ("(3) Verifiacar estoque atual")
+    print ("(4) Sair")
+
+    opçao = int (input ("Opção:"))
+
+    if opcao == 1:
+        qtd = int (input ("Quantidade para adicionar:  "))
+        estoque += qtd 
+        print ("Unidades adiocionadas com sucesso!")
+
+    elif opcao == "2":
+        quantiade =
+        qtd = int(input (""Quantidade unidades deseja remover?"))
+        if quantidade <= estoque:
+        estoque -= quantidade 
+        print (f" {quantidade} unidades removidas com sucesso!")
+        else:
+        print("Erro: não é permitido remover mais do que o estoque disponível")
+
+        elif opcao == "3":
+        print (f"Estoque atual: {estoque} unidades 
+        ")
+
+        elif opcao == "4":
+        print("Encerrando o programa. Obrigado!")
+        break
+        
+        else:
+         print("Opção inválida. Tente novamente.")

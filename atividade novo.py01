@@ -1,0 +1,8 @@
+Exercício 01
+
+nome = input ("Digite o nome:")
+email = input ("Digite o e-mail:")
+
+arquivo = opem ("pessoa.txt", "a")
+arquivo.write(nome + | " + email + "\n")
+arquivo.close() 

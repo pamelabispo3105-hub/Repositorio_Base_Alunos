@@ -1,0 +1,8 @@
+# Arquivo 04.py atividade
+
+# Dada a lista [5,10,15,20], remove o elemento na posição 2 usando del.
+
+numeros = [5,10,15,20]
+del numeros [2]
+
+print(numeros)

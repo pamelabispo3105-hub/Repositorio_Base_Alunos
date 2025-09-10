@@ -1,0 +1,9 @@
+# Atividades While: 1 Lição
+
+contador = 10
+
+while contador >= 1:
+    print(contador)
+    contador -= 1
+
+print ("Fogo!")

@@ -1,0 +1,8 @@
+#Exercício Desconto em Combustivel Lição 6
+
+valor_abastecido = 120.00
+
+if valor_abastecido > 100:
+    print("Cliente recebe desconto!")
+else:
+    print("Cliente não recebe desconto.")
